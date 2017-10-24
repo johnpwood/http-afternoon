@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import BlogTile from './subcomponents/BlogTile';
 import UserTile from './subcomponents/UserTile';
 
-// import axios
+import axios from 'axios';
 
 class Search extends Component{
     constructor(){
